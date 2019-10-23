@@ -26,8 +26,20 @@ install cmake
 
 ## Intro
 luasqlite3
-```cpp
+
+win
 ```
+build.bat
+cd bin\relwithdebinfo
+lua ..\script\test.lua  
+```
+linux
+```
+bash build.sh
+cd bin\relwithdebinfo
+lua ..\script\test.lua  
+```
+
 ## Contacts
 [![Join the chat](https://badges.gitter.im/brinkqiang/luasqlite3/Lobby.svg)](https://gitter.im/brinkqiang/luasqlite3)
 
