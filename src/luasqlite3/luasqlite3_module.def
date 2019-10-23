@@ -1,0 +1,3 @@
+EXPORTS 
+    luaopen_luasqlite3
+    require_luasqlite3
