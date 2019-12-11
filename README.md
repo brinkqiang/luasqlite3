@@ -25,7 +25,7 @@ Copyright (c) 2013-2018 brinkqiang (brink.qiang@gmail.com)
 install cmake
 
 ## Intro
-luasqlite3
+luasqlite3 based on lua-sqlite
 
 win
 ```
