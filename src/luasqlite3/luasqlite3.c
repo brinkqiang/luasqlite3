@@ -198,6 +198,7 @@ static const struct luaL_Reg lib_m[] = {
 	{"exec", _exec},
 	{NULL, NULL}
 };
+
 int luaopen_luasqlite3(lua_State *L) {
 	/*create metatable of the array*/
 	luaL_newmetatable(L, LIB_NAME);
