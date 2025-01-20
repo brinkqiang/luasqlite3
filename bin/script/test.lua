@@ -3,7 +3,7 @@ local sqlite = require "luasqlite3"
 print('test.lua')
 local o = sqlite.open("./testDB.db");
 
-o:exec("drop table user;")
+o:exec("DROP TABLE IF EXISTS user;")
 --create table
 local sql = [[
 	create table user(ID int primary key not null,
