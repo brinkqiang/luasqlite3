@@ -36,8 +36,8 @@ lua ..\script\test.lua
 linux
 ```
 bash build.sh
-cd bin\relwithdebinfo
-lua ..\script\test.lua  
+cd bin/relwithdebinfo
+./lua ../script/test.lua  
 ```
 
 ## Contacts
