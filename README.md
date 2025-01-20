@@ -31,7 +31,7 @@ win
 ```
 build.bat
 cd bin\relwithdebinfo
-lua ..\script\test.lua  
+lua ../script/test.lua 
 ```
 linux
 ```
